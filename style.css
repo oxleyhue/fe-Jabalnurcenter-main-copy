@@ -1,0 +1,588 @@
+body, html{
+    font-family: 'Poppins' !important;
+    height: 100%;
+}
+
+
+/* Navbar Start*/
+
+.navbar {
+    background-color: #1D366F;
+    font-weight: lighter;
+}
+
+.navbar a{
+    color: #EDF2FF;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+    color: #EDF2FF;
+
+}
+/* Navbar End*/
+
+/* Hero Start*/
+.hero-image{
+    background-image: url("img/hero1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #EDF2FF;
+}
+
+.hero-text h1{
+    font-size: 42px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    color: #E0BA31;
+}
+/* Hero End*/
+
+/* Program Kerja Start */
+.programkerja{
+    padding: 50px;
+    background-color: #EDF2FF;
+}
+
+.programkerja h1{
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #1D366F;
+    
+}
+
+.card{
+    background-color: #1D366F;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+.card2{
+    background-color: #1D366F;
+    border-radius: 10px;
+}
+
+.card:hover{
+    background-color: #E0BA31;
+}
+
+.card-img-top{
+    border-radius: 10px;
+}
+
+.card p{
+    color: #EDF2FF;
+}
+
+.card p:hover{
+    color: #1D366F;
+}
+
+.card2:hover{
+    background-color: #E0BA31;
+}
+/* Program Kerja End */
+
+/* Galeri Start*/
+.galeri-beranda{
+    background-color: #1D366F;
+    padding: 50px;
+}
+
+.galeri-beranda h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    color: #EDF2FF;
+}
+
+.galeriberanda{
+    width: 900px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.galeriberanda div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.galeriberanda div img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.galeriberanda::-webkit-scrollbar{
+    display: none;
+}
+
+.galeriberanda-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#backBtn, #nextBtn{
+    width: 50px;
+    cursor: pointer;
+    margin: -23px;
+    position: relative;
+}
+
+/* Galeri End*/
+
+
+/* Layanan Start*/
+.layanan{
+    background-color: #EDF2FF;
+    padding: 50px;
+}
+
+.layanan h1{
+    color: #1D366F;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+#layanan .infop{
+    color: #1D366F;
+    font-weight: bold;
+}
+
+#layanan .info i{
+    float: left;
+    color: #1D366F;
+}
+
+#layanan .info p{
+    color: #1D366F;
+    position: relative;
+    padding: 0 0 10px 25px;
+}
+
+#layanan .social-link{
+    padding-bottom: 20px;
+}
+
+#layanan .social-link a{
+    display: inline-block;
+    color: #1D366F;
+    pad: 8px 0;
+    text-align: center;
+    font-size: 36px;
+    width: 50px;
+    height: 36px;
+}
+
+#layanan .social-link p{
+    display: inline-block;
+    color: #1D366F;
+    text-align: center;
+    font-size: 20px;
+    width: 50px;
+    height: 36px;
+}
+
+#layanan h5{
+    padding: 10px;
+}
+
+#layanan .card button{
+    background-color: #E0BA31;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+#layanan .card2 button{
+    background-color: #E0BA31;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+#layanan .card2 button:hover{
+    background-color: #1D366F;
+}
+
+/* Layanan End*/
+
+
+/* Footer Start*/
+
+.footer{
+    font-weight: lighter;
+    padding: 20px;
+}
+
+.footer a{
+    color: #EDF2FF;
+}
+
+.footer a:hover{
+    font-weight: bold;
+    color: #EDF2FF;
+}
+
+
+/* Footer End*/
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+
+/* Tentang Kami Start*/
+
+
+/* Hero Start*/
+.hero{
+    background-image: url("img/hero2.png");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero h1{
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    color: #E0BA31;
+
+}
+/* Hero End*/
+
+
+/* Tentang Yayasan Start*/
+#yayasan{
+    background-color: #EDF2FF;
+    position: relative;
+    padding: 100px;
+    text-align: center;
+    color: #1D366F;
+}
+
+#yayasan .yayasan-text h1{
+    font-weight: bold;
+}
+
+#yayasan .yayasan-text p{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+/* Tentang Yayasan End*/
+
+
+/* Profil Pendiri Start*/
+#pendiri{
+    background-color: #1D366F;
+    position: relative;
+    padding: 100px;
+    text-align: center;
+    color: #EDF2FF;
+}
+
+#pendiri h1{
+    font-weight: bold;
+}
+
+.foto-pendiri img{
+    max-width: 30%;
+    margin: 50px;
+}
+
+/* Profil Pendiri End*/
+
+
+
+/* Tentang Kami Start */
+#tentangkami{
+    position: relative;
+}
+
+.judul-pengalaman{
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#tentangkami .container-pengalaman{
+    align-items: center;
+    background-color: #E0BA31;
+    border-radius: 15px;
+    position: relative;
+    width: 15%;
+}
+
+#tentangkami .container-pengalaman img{
+    display: block;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+}
+
+#tentangkami .overlay-pengalaman{
+    position: absolute;
+    border-radius: 15px;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #EDF2FF;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+#tentangkami .container-pengalaman:hover .overlay-pengalaman{
+    bottom: 0;
+    height: 100%;
+}
+
+#tentangkami .pengalaman-text{
+    white-space: wrap;
+    color: #1D366F;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Tentang Kami End*/
+
+
+
+
+/* Visi Misi Start*/
+#visimisi{
+    background-color: #EDF2FF;
+    padding-bottom: 5px;
+}
+
+#visimisi h3{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    color: #1D366F;
+}
+
+#visimisi .konten-visi{
+    background-color: #1D366F;
+    text-align: center;
+    width: 750px;
+    color: #EDF2FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+
+}
+
+#visimisi .konten-misi{
+    background-color: #1D366F;
+    width: 750px;
+    color: #EDF2FF;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+/* Visi Misi End*/
+
+/* Tentang Kami End*/
+
+.programkerja2{
+    padding-bottom: 250px;
+    padding-top: 50px;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* Galeri Start */
+.galeri img{
+    border-radius: 10px;
+}
+
+.galeri{
+    padding-bottom: 300px;
+}
+/* Galeri End */
+
+/* ----------------------------------------------------------------------------- */
+
+/* Layanan Start */
+#layanankami{
+    background-color: #EDF2FF;
+    padding: 50px;
+}
+
+#layanankami .card-layanan{
+    background-color: #1D366F;
+    border-radius: 15px;
+    width: 18rem;
+}
+
+.card-layanan p{
+    color: #EDF2FF;
+}
+
+#pertanyaan{
+    background-color: #1D366F;
+}
+
+#pertanyaan .row{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.tanya{
+    padding-top: 50px;
+    font-size: 50px;
+    color: #EDF2FF;
+}
+
+.accordion-item{
+    border: none !important;
+}
+
+.accordion-button{
+    background-color: #E0BA31;
+    color: #1D366F;
+    font-weight: bold;
+}
+/* Layanan End */
+/* Navbar */
+.navbar {
+    background-color: #1D366F;
+    font-weight: lighter;
+}
+
+/* Hero */
+.hero-text h1 {
+    font-size: 42px;
+}
+
+/* Galeri */
+.galeri-beranda {
+    padding: 50px;
+}
+
+/* Layanan */
+.layanan {
+    padding: 50px;
+}
+
+
+/* Responsif Navbar */
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+
+/* Responsif Program Kerja */
+@media (max-width: 992px) {
+    .programkerjaberanda {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .programkerjaberanda .card {
+        margin-bottom: 20px;
+        align-items: center;
+
+
+    }
+}
+
+/* Responsif Hero untuk layar mobile */
+@media (max-width: 576px) {
+    .hero-text {
+        top: 50%; /* Posisikan di tengah vertikal */
+        transform: translate(-50%, -50%); /* Geser ke tengah secara horizontal */
+        text-align: center; /* Pusatkan teks */
+    }
+
+    .hero-text h1 {
+        font-size: 30px; /* Sesuaikan ukuran font */
+    }
+}
+
+/* Responsif Galeri */
+@media (max-width: 768px) {
+    .galeriberanda {
+        width: auto;
+        overflow-y: auto;
+        display: block;
+        white-space: nowrap;
+    }
+
+    .galeriberanda div {
+        flex: none;
+        width: auto;
+        display: inline-block;
+    }
+
+    .galeriberanda div img {
+        width: 110%;
+    }
+}
+
+
+/* Responsif Layanan */
+@media (max-width: 768px) {
+    .info {
+        margin-bottom: 20px;
+    }
+
+    .card2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .col-lg-4 {
+        margin-bottom: 20px;
+    }
+
+    .card2 {
+        margin-top: 0;
+    }
+
+    .info {
+        margin-bottom: 0;
+    }
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.5%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
